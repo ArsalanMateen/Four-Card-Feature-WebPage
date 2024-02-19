@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.content-container {
+  min-height: 100vh;
+  min-width: 375px;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.textBox {
+  max-width: 540px;
+  min-width: 311px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  margin: 80px 0 32px 0;
+}
+
+.textBox .title .first-half,
+.textBox .title .second-half {
+  font-size: 36px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: #4d4f62;
+}
+
+.textBox .title .first-half {
+  font-weight: 200;
+}
+.textBox .title .second-half {
+  font-weight: 600;
+}
+
+.textBox .para-text {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #4d4f6285;
+  margin-top: 16px;
+}
+
+.boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 32px 0 80px 0;
+}
+
+.box {
+  max-width: 350px;
+  min-width: 350px;
+  width: 100%;
+  height: 250px;
+  padding: 2rem;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.box h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.box p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.09;
+  text-align: left;
+  color: #4d4f6285;
+}
+
+.box img {
+  position: relative;
+  top: 50px;
+  left: 230px;
+}
+
+.boxes-container #combo-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+#first-box,
+#fourth-box {
+  margin: auto 0;
+}
+
+#first-box {
+  border-top: 5px solid #44d3d2;
+}
+#second-box {
+  border-top: 5px solid #ea5454;
+}
+#third-box {
+  border-top: 5px solid #fcae4a;
+}
+
+#fourth-box {
+  border-top: 5px solid #549ef2;
+}
+
+@media (max-width: 1160px) {
+  .boxes-container {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .boxes-container #combo-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  #first-box,
+  #fourth-box {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 505px) {
+  .textBox .title .first-half,
+  .textBox .title .second-half {
+    font-size: 24px;
+    letter-spacing: 0.17px;
+    text-align: center;
+    color: #4d4f62;
+  }
+}
