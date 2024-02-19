@@ -1,6 +1,6 @@
 # Four Card Feature Landing Page
 
-This is a basic web page design featuring four cards. The landing page is designed to be responsive, ensuring a seamless experience across various devices and screen sizes.
+This is a basic web page design featuring four cards. The landing page is designed to be responsive, ensuring a seamless experience across various devices and screen sizes
 
 # Features
 
@@ -16,9 +16,9 @@ To use this design, simply download the source code and customize it according t
 
 # Review Our Web Page
 
-If you have a moment, we would greatly appreciate your feedback on our work.<br>
-Please take a moment to review our webpage at [click me!](https://designbycodestacker.netlify.app).<br>
-Your time and insights are highly valued.<br>
-Thank you.
+If you have a moment, we would greatly appreciate your feedback on our work<br>
+Please take a moment to review our webpage at [click me!](https://designbycodestacker.netlify.app)<br>
+Your time and insights are highly valued<br>
+Thank you :)
 
 ![image loading...](./DesktopDesign.png)
